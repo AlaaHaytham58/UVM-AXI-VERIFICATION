@@ -1,0 +1,6 @@
+# files.txt (example)
+Design/axi_memory.sv
+Design/axi4.sv
+Axi_env/axi_Interface.sv
+Axi_env/axi_pkg.sv
+Axi_env/axi_Top.sv

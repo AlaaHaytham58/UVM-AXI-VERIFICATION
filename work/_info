@@ -1,0 +1,453 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/IMEDIA/Desktop/Project-verification/AXI4-Compliant-Memory-Mapped-Slave-Verification
+T_opt
+!s11d axi_pkg D:/UVM_Project/work 1 arb_if 1 D:/UVM_Project/work 
+!s11d uvm_pkg C:/questasim64_2024.1/uvm-1.1d 1 arb_if 1 D:/UVM_Project/work 
+!s110 1755714165
+V`Y@JSYZBQC4Tcmf2Ao@151
+04 3 4 work Top fast 0
+=2-f89e94f75080-68a61274-121-34f8
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2024.1;79
+Yarb_if
+Z2 2Design/axi_memory.sv|Design/axi4.sv|Axi_env/axi_Interface.sv|Axi_env/axi_pkg.sv|Axi_env/axi_Top.sv
+Z3 !s105 axi_Top_sv_unit
+Z4 DXx4 work 15 axi_Top_sv_unit 0 22 M_26jiO8h4CbodPUUOXa40
+Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z6 !s110 1755714163
+!i10b 1
+!s100 GKV1HnFV:F0_>ooF1AADl2
+IhTaUCdT[lm4^WF4D0EnLJ2
+S1
+Z7 dD:/UVM_Project
+w1755714041
+8Axi_env/axi_Interface.sv
+Z8 FAxi_env/axi_Interface.sv
+!i122 35
+Z9 L0 1 0
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2024.1;79
+r1
+!s85 0
+31
+Z12 !s108 1755714163.000000
+Z13 !s107 Axi_env/axi_test.sv|Axi_env/axi_env.sv|Axi_env/axi_scoreboard.sv|Axi_env/axi_coverage.sv|Axi_env/axi_agent.sv|Axi_env/axi_monitor.sv|Axi_env/axi_driver.sv|Axi_env/axi_sequencer.sv|Axi_env/axi_seq.sv|Axi_env/axi_transaction.sv|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|Axi_env/axi_Top.sv|Axi_env/axi_pkg.sv|Axi_env/axi_Interface.sv|Design/axi4.sv|Design/axi_memory.sv|
+Z14 !s90 -reportprogress|300|-f|files.txt|
+!i113 0
+Z15 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vaxi4
+R2
+R5
+R6
+!i10b 1
+!s100 L4YEoi1aA^16=09@b=6aP3
+ILEWlDTYbC_jW]7nDX;_oH2
+S1
+R7
+w1755616738
+8Design/axi4.sv
+FDesign/axi4.sv
+!i122 35
+L0 1 194
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R1
+vaxi4_memory
+R2
+R5
+R6
+!i10b 1
+!s100 g4]hbaB:k`:b[d[:bgo[73
+IolS]4VDfkndG_RQ36fkX=1
+S1
+R7
+w1755556917
+8Design/axi_memory.sv
+FDesign/axi_memory.sv
+!i122 35
+L0 1 33
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R1
+Xaxi_agent_sv_unit
+Z16 !s115 axi_interface
+R5
+Z17 DXx6 mtiUvm 7 uvm_pkg 0 22 MiVhEBb9cnBN5^J=<XBKI2
+Z18 !s110 1755708759
+Vf<;ZE^7J[EDnn:_T<<g=?1
+r1
+!s85 0
+!i10b 1
+!s100 e7EKcWKRD?XJT3i2QUl:V3
+If<;ZE^7J[EDnn:_T<<g=?1
+!i103 1
+S1
+R7
+w1755707739
+8Axi_env/axi_agent.sv
+Z19 FAxi_env/axi_agent.sv
+Z20 FC:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z21 FC:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z22 FC:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z23 FC:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z24 FC:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z25 FC:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z26 FC:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z27 FC:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z28 FC:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z29 FC:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z30 FC:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z31 FC:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+Z32 FAxi_env/axi_driver.sv
+Z33 FAxi_env/axi_transaction.sv
+Z34 FAxi_env/axi_sequencer.sv
+Z35 FAxi_env/axi_monitor.sv
+!i122 23
+Z36 L0 4 0
+R11
+31
+Z37 !s108 1755708759.000000
+Z38 !s107 C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|Axi_env/axi_test.sv|Axi_env/axi_pkg.sv|Axi_env/axi_Interface.sv|Axi_env/axi_scoreboard.sv|Axi_env/axi_coverage.sv|Axi_env/axi_env.sv|Axi_env/axi_agent.sv|Axi_env/axi_monitor.sv|Axi_env/axi_driver.sv|Axi_env/axi_sequencer.sv|Axi_env/axi_seq.sv|Axi_env/axi_transaction.sv|Design/axi4.sv|Design/axi_memory.sv|
+R14
+!i113 0
+R15
+R1
+Xaxi_driver_sv_unit
+R16
+R5
+R17
+R18
+V^3n_9eBWEiQkXB8AJm2a13
+r1
+!s85 0
+!i10b 1
+!s100 I^HRnLPI_>=[[j]e6IOoW1
+I^3n_9eBWEiQkXB8AJm2a13
+!i103 1
+S1
+R7
+w1755706463
+8Axi_env/axi_driver.sv
+R32
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R33
+!i122 23
+R36
+R11
+31
+R37
+R38
+R14
+!i113 0
+R15
+R1
+Xaxi_monitor_sv_unit
+R5
+R17
+R18
+VdTJF85DcJDIMdI`lh6H@M2
+r1
+!s85 0
+!i10b 1
+!s100 7k9;hHz25LIQBm4lJ6H7T0
+IdTJF85DcJDIMdI`lh6H@M2
+!i103 1
+S1
+R7
+w1755702100
+8Axi_env/axi_monitor.sv
+R35
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+!i122 23
+R36
+R11
+31
+R37
+R38
+R14
+!i113 0
+R15
+R1
+Xaxi_pkg
+!i114 1
+R2
+!s115 arb_if
+R5
+R17
+R6
+!i10b 1
+!s100 7USH25S3J;=O[IioH0DX[0
+I9?naeU7B1J27H[0c@NmWl2
+S1
+R7
+w1755714115
+Z39 FAxi_env/axi_pkg.sv
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R33
+Z40 FAxi_env/axi_seq.sv
+R34
+R32
+R35
+R19
+FAxi_env/axi_coverage.sv
+FAxi_env/axi_scoreboard.sv
+FAxi_env/axi_env.sv
+FAxi_env/axi_test.sv
+!i122 35
+R9
+V9?naeU7B1J27H[0c@NmWl2
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R1
+Xaxi_seq_sv_unit
+R5
+R17
+Z41 !s110 1755712175
+VS9Ln3c72_69>]e<lI03Pj3
+r1
+!s85 0
+!i10b 1
+!s100 10jfl23ged=FV?@Q7RMfh2
+IS9Ln3c72_69>]e<lI03Pj3
+!i103 1
+S1
+R7
+w1755712055
+8Axi_env/axi_seq.sv
+R40
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R33
+!i122 30
+Z42 L0 5 0
+R11
+31
+Z43 !s108 1755712174.000000
+R38
+R14
+!i113 0
+R15
+R1
+Xaxi_sequencer_sv_unit
+R5
+R17
+R41
+VKo[T]D^RI_PaTUHfO>24^3
+r1
+!s85 0
+!i10b 1
+!s100 J0c8I>_8VI0_NUSdfK>E<2
+IKo[T]D^RI_PaTUHfO>24^3
+!i103 1
+S1
+R7
+w1755712133
+8Axi_env/axi_sequencer.sv
+R34
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R33
+!i122 30
+R42
+R11
+31
+R43
+R38
+R14
+!i113 0
+R15
+R1
+Xaxi_Top_sv_unit
+R2
+R5
+R17
+Z44 DXx4 work 7 axi_pkg 0 22 9?naeU7B1J27H[0c@NmWl2
+R6
+VM_26jiO8h4CbodPUUOXa40
+r1
+!s85 0
+!i10b 1
+!s100 kVUCz]@o?aeHNZRNL9oB^0
+IM_26jiO8h4CbodPUUOXa40
+!i103 1
+S1
+R7
+Z45 w1755714111
+Z46 8Axi_env/axi_Top.sv
+Z47 FAxi_env/axi_Top.sv
+R8
+R39
+R20
+!i122 35
+R36
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R1
+naxi_@top_sv_unit
+Xaxi_transaction_sv_unit
+R5
+R17
+R41
+Vi>k72iB8<dT<GQc=`J;Ua0
+r1
+!s85 0
+!i10b 1
+!s100 dGC5AU5Nk26^PPF4O2YH22
+Ii>k72iB8<dT<GQc=`J;Ua0
+!i103 1
+S1
+R7
+w1755702746
+8Axi_env/axi_transaction.sv
+R33
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+!i122 30
+R42
+R11
+31
+R43
+R38
+R14
+!i113 0
+R15
+R1
+vTop
+R2
+R5
+R17
+R44
+R4
+R6
+R10
+r1
+!s85 0
+!i10b 1
+!s100 7^2EF5Y:RUzWEAK3_Q7Vk0
+I4RGY3VZo5J4mZ5:6kUb]P0
+R3
+S1
+R7
+R45
+R46
+R47
+!i122 35
+L0 7 19
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R1
+n@top
