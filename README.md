@@ -52,3 +52,7 @@ The implemented testbench follows a standard UVM layered architecture. The high-
                                   |     DUT        |
                                   | (AXI4 Slave)   |
                                   +----------------+
+
+
+                                <img width="876" height="472" alt="image" src="https://github.com/user-attachments/assets/17efa09b-9f6b-4fd0-aa18-a3a1af102427" />
+
