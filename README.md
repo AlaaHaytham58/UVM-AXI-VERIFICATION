@@ -17,7 +17,7 @@ UVM Phasing and Reporting: Strict adherence to the UVM phasing mechanism and imp
 2.1 UVM Testbench Architecture
 The implemented testbench follows a standard UVM layered architecture. The high-level structural diagram is as follows:
 
-text
+
     +-----------------------+
     |       axi_test        |  (Base Test)
     +-----------------------+
