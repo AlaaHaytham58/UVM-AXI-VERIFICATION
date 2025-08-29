@@ -23,8 +23,11 @@ class axi_env extends uvm_env;
   endfunction
 
   function void connect_phase(uvm_phase phase);
-    agent.mon.ap.connect(scoreboard.imp);
-    agent.mon.ap.connect(coverage.analysis_export);
+   // Connect the request/response analysis port to scoreboard and coverage
+  agent.mon.req_ap.connect(scoreboard.imp);
+  agent.mon.req_ap.connect(coverage.analysis_export);
+  agent.mon.rsp_ap.connect(scoreboard.imp);
+  agent.mon.rsp_ap.connect(coverage.analysis_export);
   endfunction
 endclass
 `endif

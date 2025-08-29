@@ -1,0 +1,12 @@
+/work
+*.mti
+*.mpf
+/-html
+cov.ucdb
+cov_report.txt
+transcript
+vsim_stacktrace.vstf
+vsim.wlf
+*.log
+_info
+_lib.qdb

@@ -1,0 +1,2 @@
+[0] AXI Monitor started logging
+[0] AXI Monitor finished logging
