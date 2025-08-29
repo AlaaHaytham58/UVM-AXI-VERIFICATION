@@ -6,6 +6,7 @@ import uvm_pkg::*;
 class axi_scoreboard extends uvm_component;
   `uvm_component_utils(axi_scoreboard)
 
+  // Single analysis port for backward compatibility
   uvm_analysis_imp#(axi_transaction, axi_scoreboard) imp;
 
   // reference memory (golden)
@@ -48,6 +49,7 @@ class axi_scoreboard extends uvm_component;
   function void handle_write(axi_transaction tr);
     int i;
     int word_addr;
+    
     // Update golden memory for write transactions
     if (tr.wdata.size() > 0) begin  // This is a write with data
       for (i = 0; i <= tr.awlen; i++) begin
@@ -58,6 +60,14 @@ class axi_scoreboard extends uvm_component;
             $sformatf("Golden Memory Write: Addr=%0h, Data=%0h", 
                      tr.awaddr + i*4, tr.wdata[i]), UVM_HIGH)
         end
+      end
+    end
+    
+    // Check write response if available
+    if (tr.bresp inside {2'b01, 2'b10, 2'b11}) begin
+      if (tr.bresp !== 2'b00) begin
+        `uvm_error("SCB_WRITE_ERR",
+          $sformatf("Unexpected write error response: %0b", tr.bresp))
       end
     end
   endfunction
@@ -86,6 +96,7 @@ class axi_scoreboard extends uvm_component;
       return;
     end
     
+    // Find matching request (simple FIFO approach)
     request = read_requests.pop_front();
     mismatch = 0;
     
@@ -107,7 +118,13 @@ class axi_scoreboard extends uvm_component;
       end
     end
     
-    if (!mismatch) begin
+    // Check read response code
+    if (response.rresp !== 2'b00) begin
+      `uvm_error("SCB_READ_RESP_ERR",
+        $sformatf("Unexpected read response: %0b", response.rresp))
+    end
+    
+    if (!mismatch && (response.rresp == 2'b00)) begin
       `uvm_info("SCB_READ_OK",
         $sformatf("Read OK @0x%0h len=%0d", request.araddr, request.arlen), UVM_LOW)
     end
