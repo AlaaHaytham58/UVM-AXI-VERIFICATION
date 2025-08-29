@@ -10,8 +10,13 @@ class axi_agent extends uvm_agent;
   axi_sequencer  seq;
   axi_monitor    mon;
 
+uvm_analysis_port #(axi_transaction) req_ap;
+uvm_analysis_port #(axi_transaction) rsp_ap;
+
   function new(string name="axi_agent", uvm_component parent=null);
     super.new(name,parent);
+     req_ap = new("req_ap", this);
+     rsp_ap = new("rsp_ap", this);
   endfunction
 
   function void build_phase(uvm_phase phase);
@@ -28,6 +33,8 @@ class axi_agent extends uvm_agent;
     super.connect_phase(phase);
     if (is_active == UVM_ACTIVE)
       drv.seq_item_port.connect(seq.seq_item_export);
+    mon.req_ap.connect(req_ap);
+    mon.rsp_ap.connect(rsp_ap);
     `uvm_info("my_axi_agent", "AXI Agent connected", UVM_LOW);
   endfunction
 endclass
